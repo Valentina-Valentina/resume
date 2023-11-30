@@ -1,12 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>My resume</title>
 </head>
+
 <body>
-    <h1>Привіт</h1>
+    <!--Wrapper-->
+    <div class="wrapper">
+        <!--Main content-->
+        <div class="main-content">
+            <!--About me-->
+            <div class="about-me-container">
+                <h1 class="my-nome">Valentyna Kyryliuk</h1>
+                <h2 class="my-profession">Junior Frontend Developer</h2>
+                <p class="my-descr">
+                    Responsible, purposeful and open-minded full-stack developer at the very beginning of my career. I
+                    am eager to grow as a
+                    professional, work in a team, learn from experienced colleagues and contribute to projects. I am
+                    motivated to continue
+                    learning and improving my skills.
+                    Experience in implementing two individual and two team projects.
+                </p>
+            </div>
+            <!--My projects-->
+            <div class="projects-container">
+                <h3 class="education-item">Projects</h3>
+                <ol class="projects-list">
+                    <li class="projects-item">
+                        <a href="https://valentina-valentina.github.io/goit-markup-hw-07/"
+                            class="projects-item-link">https://valentina-valentina.github.io/goit-markup-hw-07/</a>
+                        <span class="projects-item-descr">...................[ HTML, CSS ]</span>
+                        <p class="my-descr">
+                            A website with a responsive layout for a conceptual company to highlight their professional
+                            services and introduce the team.. Role: Developer.
+                        </p>
+
+                    </li>
+                    <li class="projects-item">
+                        <a href="https://bogdanproto.github.io/sweet-team-js/"
+                            class="projects-item-link">https://bogdanproto.github.io/sweet-team-js/</a>
+                        <span class="projects-item-descr">.........[ JavaScript, Node.js ]</span>
+                        <p class="my-descr">
+                            Web site for browsing and managing a collection of recipes, with features for users to save
+                            favorite recipes, filter by
+                            category, preparation time, and ingredients, and search by keyword. The entire recipe
+                            catalog is dynamically loaded from
+                            the backend. Role: Developer
+                        </p>
+                    </li>
+                    <li class="projects-item">
+                        <a href="https://nadiia17.github.io/sweet-team-project/"
+                            class="projects-item-link">https://nadiia17.github.io/sweet-team-project/</a>
+                        <span class="projects-item-descr">................[ JavaScript ]</span>
+                        <p class="my-descr">
+                            An engaging, responsive e-commerce website to showcase and sell premium chocolates.
+                            Role: Developer
+                        </p>
+                    </li>
+                    <li class="projects-item">
+                        <a href="https://valentina-valentina.github.io/goit-react-hw-08-phonebook/"
+                            class="projects-item-link">https://valentina-valentina.github.io/goit-react-hw-08-phonebook/</a>
+                        <span class="projects-item-descr">.........[ React, Node.js ]</span>
+                        <p class="my-descr">
+                            A simple phonebook connected to Swagger backend API - you can register, login, add,
+                            remove or filter contacts, log out. Role: Developer.
+                        </p>
+                    </li>
+                </ol>
+            </div>
+
+            <!--Education-->
+            <div class="education-container">
+                <h3 class="education-item">Education</h3>
+                <div>
+                    <h4 class="education-nome">
+                        IT School GoIT
+                    </h4>
+                    <h5 class="education-possition">Fullstack Developer</h5>
+                    <p class="education-period"> 2023-2024 | Ukraine</p>
+                </div>
+                <div>
+                    <h4 class="education-nome">
+                        Ivan Ohienko Kamianets-Podilskyi State Pedagogical University
+                    </h4>
+                    <h5 class="education-possition">Teacher</h5>
+                    <p class="education-period">2000 - 2005 | Ukraine</p>
+                </div>
+            </div>
+        </div>
+
+        <!--Sidebar-->
+
+        <aside class="sidebar">
+            <img src="./img/my photo.jpg" alt="My photo" width="370px" class="my-photo" />
+
+            <!--Contacts-->
+            <div class="contacts-container">
+                <h3 class="sidebar-title">Contacts</h3>
+                <p class="contacts-item">
+                    <span class="contacts-type"> C: </span>
+                    <a href="tel:+380661333851" class="contacts-number">+38 066 13 33 851</a>
+                </p>
+                <p class="contacts-item">
+                    <span class="contacts-type"> E: </span>
+                    <a href="mailto:valentinasergssvna@gmail.com"
+                        class="contacts-email">valentinasergssvna@gmail.com</a>
+                </p>
+                <p class="contacts-item">
+                    <span class="contacts-type"> D: </span>
+                    <a href="https://www.linkedin.com/mynetwork/" class="contacts-email">linkedin</a>
+                </p>
+            </div>
+
+            <!--Tech Skills-->
+            <div class="tech-skills-container">
+                <h3 class="sidebar-title">Tech Skills</h3>
+
+                <ul class="skills-list">
+                    <li class="skills-list-item">
+                        <span class="skills-list-text">HTML/CSS</span>
+                    </li>
+                    <li class="skills-list-item">
+                        <span class="skills-list-text"> Responsive/Adaptive design</span>
+                    </li>
+                    <li class="skills-list-item">
+                        <span class="skills-list-text">GIT</span>
+                    </li>
+                    <li class="skills-list-item">
+                        <span class="skills-list-text">TypeScript</span>
+                    </li>
+                    <li class="skills-list-item">
+                        <span class="skills-list-text">JavaScript</span>
+                    </li>
+                    <li class="skills-list-item">
+                        <span class="skills-list-text">React.js</span>
+                    </li>
+                    <li class="skills-list-item">
+                        <span class="skills-list-text">Node.js</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!--Soft Skills-->
+            <div class="soft-skills-container">
+                <h3 class="sidebar-title">Soft Skills</h3>
+
+                <ul class="skills-list">
+                    <li class="skills-list-item">
+                        <span class="skills-list-text">Teamwork</span>
+                    </li>
+                    <li class="skills-list-item">
+                        <span class="skills-list-text">Communication</span>
+                    </li>
+                    <li class="skills-list-item">
+                        <span class="skills-list-text">Cooperative</span>
+                    </li>
+                    <li class="skills-list-item">
+                        <span class="skills-list-text">Problem Solving</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!--L A N G U A G E S-->
+            <div class="career-skills-container">
+                <h3 class="sidebar-title">Languages</h3>
+
+                <ul class="skills-list">
+                    <li class="skills-list-item">
+                        <span class="skills-list-text">English - Elementary</span>
+                    </li>
+                    <li class="skills-list-item">
+                        <span class="skills-list-text">Italinian - Intermediate</span>
+                    </li>
+                    <li class="skills-list-item">
+                        <span class="skills-list-text">Ukrainian - Native</span>
+                    </li>
+                    <li class="skills-list-item">
+                        <span class="skills-list-text">Russian - Fluent</span>
+                    </li>
+
+                </ul>
+            </div>
+        </aside>
+    </div>
 </body>
+
 </html>
